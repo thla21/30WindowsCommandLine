@@ -80,7 +80,7 @@ usebackq" %F IN ( netsh wlan show profile %a key^=clear
 ```
 
 
-# Informações do sistema
+### Informações do sistema
 
 ## Exibir operação e configuração detalhadas do sistema
 informação
