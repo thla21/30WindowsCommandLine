@@ -17,14 +17,14 @@ copy /b image.extension+folder.zip image.extension
 ```
 
 
-## criptografar arquivos em uma pasta
+#### criptografar arquivos em uma pasta
 
 ```cmd
 cipher /E
 ```
 
 
-## Ocultar uma pasta de todos
+#### Ocultar uma pasta de todos
 
 ```cmd
 attrib +h +s +r foldername
@@ -37,7 +37,7 @@ attrib h s r foldername
 ```
 
 
-## Show all wifi passwords
+#### Show all wifi passwords
 
 Primeiro apresente a lista de redes WiFi:
 
@@ -62,14 +62,14 @@ Content") & echo.
 ```
 
 
-## Save Output of a Command to a File
+#### Save Output of a Command to a File
 
 ```cmd
 command >> output.txt
 ```
 
 
-## Create a batch file
+#### Create a batch file
 
 ```cmd
 for /F "tokens=2 delims=:" %a in ('netsh wlan show
@@ -89,14 +89,14 @@ informação
 systeminfo
 ```
 
-## Copie arquivos com segurança entre hosts remotos
+#### Copie arquivos com segurança entre hosts remotos
 
 ```cmd
 scp file.txt root@serverip:~/file.txt
 ```
 
 
-## Abra o CMD dentro de um diretório do Windows
+#### Abra o CMD dentro de um diretório do Windows
 
 ```cmd
 CMD” in the search bar
